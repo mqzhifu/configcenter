@@ -17,7 +17,7 @@ watch = "open"
 [zap]
 status = "open"
 level = "info"
-dir = "/data/www/golang/src/logs"
+dir = "/www/project/zgoframe/logs"
 showLine = true
 linkName = "latest_log"
 LogInConsole = true
@@ -45,17 +45,17 @@ imgHeight = 80
 status = "open"
 ip = "127.0.0.1"
 port = "5555"
-staticPath ="/data/www/golang/src/zgoframe/static"
+staticPath ="/www/project/zgoframe/static"
 reqLimitTimes= 100
 
 [mysql]
 status = "open"
-ip = "127.0.0.1"
+ip = "192.168.1.228"
 port = "3306"
 config = "charset=utf8mb4&parseTime=True&loc=Local"
 db-name = "pg_account"
-username = "root"
-password = "mqzhifu"
+username = "pgaccoun"
+password = "Pgaccount123"
 maxIdleConns = 10
 maxOpenConns = 100
 logMode = true
@@ -63,7 +63,7 @@ logZap = false
 
 [casbin]
 status = "open"
-modelPath = "/data/www/golang/src/zgoframe/static/data/rbac_model.conf"
+modelPath = "/www/project/zgoframe/static/data/rbac_model.conf"
 
 [etcd]
 status = "close"

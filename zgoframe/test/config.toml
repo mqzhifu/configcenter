@@ -54,7 +54,7 @@ ip = "192.168.1.228"
 port = "3306"
 config = "charset=utf8mb4&parseTime=True&loc=Local"
 db-name = "pg_account"
-username = "pgaccoun"
+username = "pgaccount"
 password = "Pgaccount123"
 maxIdleConns = 10
 maxOpenConns = 100
